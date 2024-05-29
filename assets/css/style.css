@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.d_inlineBlock {
+  display: inline-block;
+}
+
+.txt_center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 800;
+  color: #752305;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #752305;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+h4 {
+  font-weight: bold;
+}
+/* GENERALI RIFERITE A EXTRALARGE */
+
+/* NAV */
+
+nav {
+  height: 100vh;
+  width: 250px; /* riv */
+  background-color: #fef7e2;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  column-gap: 2px;
+  padding-top: 25px;
+  /* flex-shrink: 0; */
+}
+
+li {
+  background-color: #ffdf7f;
+  border: none;
+  border-radius: 40px;
+  width: 200px;
+  height: 80px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #732003;
+  margin-block: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+li > img {
+  height: 50px;
+  margin-right: 5%;
+}
+
+/* MAIN */
+
+section {
+  padding: 10px;
+}
+
+main {
+  min-width: 500px;
+}
+
+main .cards {
+  border: none;
+  background-color: #fef7e2;
+  height: 250px;
+  width: 230px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+main .cards img {
+  max-width: 230px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.cards button {
+  border-radius: 30px;
+  border: none;
+  background-color: #ffdf7f;
+  height: 30px;
+  width: 120px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.infoCards {
+  width: 70%;
+  text-align: center;
+}
+
+.priceCards {
+  vertical-align: super;
+}
+
+article {
+  background-color: #fef7e2;
+}
